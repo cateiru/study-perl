@@ -1,1 +1,3 @@
-print "hello\n"
+$a = "hello";
+
+print "$a\n";
