@@ -199,7 +199,7 @@ my %entry = (
 
   my @x = map {$_ * 2} @$ref_x;
 
-  print $ref_x->[0];
+  print $ref_x->[0]; # `->`で取り出せる
 
   my @new_x = @$ref_x; # ref_xはアドレスが入っているので$でスカラとして取り出してから@で入れつにしている
   print $new_x[0];
